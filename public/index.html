@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/7f33e8970d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <main>
+        <h1>Task Manager</h1>
+        <form action="" class="create-form">
+            <h3>Create Task</h3>
+            <div class="form-group">
+                <label class="visually-hidden" for="name">Task Name</label>
+                <input type="text" name="name" id="name" placeholder="e.g. Call Mom" required>
+                <button type="submit" class="add">Add</button>
+                
+            </div>
+            <div class="create-mssg"></div>
+        </form>
+
+        <div class="tasks-container">
+            <div class="text-message"></div>
+            <div class="tasks">
+                
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="initial.js"></script>
+</body>
+</html>

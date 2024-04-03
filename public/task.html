@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="" class="edit-form">
+            <label for="updated-name">Task Name</label>
+            <input type="text" name="name" id="updated-name" required>
+            <label for="completed">Completed</label>
+            <input type="checkbox" name="completed" id="completed">
+            <button class="update" type="submit">Update</button>
+            <div class="edit-mssg"></div>
+            
+        </form>
+        <a href="index.html" class="home-bttn">Go Back to Home</a>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="task.js"></script>
+</body>
+</html>
