@@ -1,6 +1,6 @@
 # Task Manager 
 
-Basic Task Manager app that lets you create, update and delete tasks.
+A Task Manager app that lets you create, update and delete tasks.
 
 ![](./assets/task_manager_ss.png)
 
